@@ -1,0 +1,23 @@
+{
+  "name": "wordgames",
+  "version": "1.0.0",
+  "description": "Word games app",
+  "main": "index.js",
+  "repository": "http://github.com/matmooore/wordgames",
+  "author": "Mat Moore <matmoore@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "live-server": "^1.2.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "serve": "live-server public",
+    "build": "webpack --watch"
+  }
+}
