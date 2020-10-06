@@ -17,7 +17,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "serve": "live-server public",
+    "serve": "live-server .",
     "build": "webpack --watch"
   }
 }
