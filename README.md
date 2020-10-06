@@ -1,6 +1,8 @@
 # Word games
 
-A thing to generates cards with random words on them from a list
+A thing to generate cards with random words on them from a list.
+
+Based on [Random Noun](https://kevan.org/games/randomnoun) by Kevan Davis.
 
 ## Local development
 

@@ -2,10 +2,31 @@
 <html>
   <head>
     <title>Word games app</title>
-    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <style>
+      #card {
+        background: #ffd;
+        border: 2px solid #bb9;
+        box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        display: table;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+
+      .cardtext {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 20vw;
+        line-height: 98%;
+      }
+    </style>
   </head>
   <body>
-    <p>Hello world</p>
+    <div id="card"><p class="cardtext"></p></div>
     <script src="wordgames.js"></script>
     <noscript>Sorry, this is only works with Javascript</noscript>
   </body>
